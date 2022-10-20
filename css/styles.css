@@ -18,6 +18,7 @@
 html,
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #222;
 }
 
 
@@ -34,6 +35,12 @@ p {
 a {
     color: #222;
     text-decoration: none;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .separator {
@@ -130,4 +137,17 @@ a {
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 1.9em;
+}
+
+
+/* features */
+.features {
+    padding: 100px 0;
+    overflow: auto;
+}
+
+.feature {
+    float: left;
+    width: 50%;
+    text-align: center;
 }
