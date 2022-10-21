@@ -64,8 +64,19 @@ a {
 }
 
 .btn-primary:hover {
-    background-color: black;
+    background-color: #222;
     color: white;
+    transition: 0.3s;
+}
+
+.btn-dark {
+    background-color: #222;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: rgb(209, 208, 208);
+    color: #222;
     transition: 0.3s;
 }
 
@@ -73,6 +84,9 @@ a {
     margin: 10px 0;
 }
 
+.my-20 {
+    margin: 20px 0;
+}
 
 /* header */
 
@@ -150,4 +164,35 @@ a {
     float: left;
     width: 50%;
     text-align: center;
+
+}
+
+
+/* person */
+
+.person {
+    height: 400px;
+    background: url(../images/cafe3.jpg) center center/cover;
+}
+
+
+/* reservation */
+
+.reservation {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    padding: 30px 0;
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
