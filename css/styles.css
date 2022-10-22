@@ -243,3 +243,36 @@ footer p {
     float: right;
     width: 50%;
 }
+
+
+/* contact */
+
+
+.contact {
+    padding: 180px 0;
+    overflow: auto;
+    min-height: calc(100vh - 94px - 67.2px);
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form-container form label {
+    display: block;
+    font-weight: 700;
+}
+
+.contact-form-container form input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+    min-height: 150px;
+}
