@@ -37,6 +37,14 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .container {
     display: block;
     margin: auto;
@@ -122,13 +130,13 @@ a {
     line-height: 1.7em;
 }
 
-.header nav h1 {
+.header nav h2 {
     float: left;
     padding: 20px;
     margin-bottom: 0;
 }
 
-.header nav h1 a {
+.header nav h2 a {
     color: white;
 }
 
@@ -156,7 +164,7 @@ a {
 /* vp */
 
 .vp {
-    height: 700px;
+    min-height: 700px;
     background: url(../images/cafe1.jpg) center center;
     background-size: cover;
 }
@@ -170,7 +178,7 @@ a {
 }
 
 .vp-content h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .vp-content p {
@@ -182,7 +190,7 @@ a {
 
 /* features */
 .features {
-    padding: 100px 0;
+    padding: 100px 20px;
     overflow: auto;
 }
 
@@ -205,7 +213,7 @@ a {
 /* reservation */
 
 .reservation {
-    padding: 100px 0;
+    padding: 6.25rem 1.25rem;
     text-align: center;
 }
 
@@ -256,6 +264,7 @@ footer p {
 
 .contact-form-container {
     max-width: 600px;
+    padding: 0 20px;
     margin: auto;
 }
 
@@ -275,4 +284,9 @@ textarea {
 
 .contact-form-container form textarea {
     min-height: 150px;
+}
+
+.contact-form-container form button {
+    margin-top: 1.25rem;
+    margin-left: calc(50% - 138.033px / 2);
 }
